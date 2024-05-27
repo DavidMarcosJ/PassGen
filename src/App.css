@@ -1,0 +1,13 @@
+.container h1{
+    font-size: 4rem;
+}
+
+.container button{
+    width: 6%;
+    font-size: 1.5rem;
+    margin: 0px 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
