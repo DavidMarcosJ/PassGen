@@ -11,18 +11,26 @@ body {
     max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
-    padding-top: 25%;
+    padding-top: 15%;
+    color: #ffffff;
 }
 .banner{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 450px;
+    height: 300px;
     background-image: url(./img/fondo2.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position-y:-350px ;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
 }
 h1{
     text-align: center;
@@ -38,33 +46,35 @@ h1{
     width: 30%;
     max-width: 90%;
     height: auto;
-    margin-top: 1%;
-    margin-left: 35%;
     box-shadow: none;
 }
 input{
     width: 10%;
     border: none;
     background-color: #171f29;
-    color: white;
     margin: 2%;
     margin-left: 7%;
     padding: 0.5%;
 }
+ input,select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #A7BDD9;
+    color: black;
+}
 select{
     width: 10%;
     border: none;
-    background-color: #171f29;
-    color: white;
     margin: 2%;
     padding: 0.5%;
     margin-left: 63%;
 }
 img {
     width: 100%;
-    max-width: 15rem;
+    max-width: 14rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,25 +90,29 @@ img {
     font-family: "Cormorant Infant", serif;
     font-weight: 400;
     font-style: normal;
-    color: #407bbd;
+    letter-spacing: 0.5px;
 }
 
 .bigContainer {
-    background-color: #171f29;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     text-align: center;
     transition: transform 0.2s;
+    background-color: #2A398C;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .bigContainer:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .nombreCarta {
     font-size: 1.1rem;
     margin: 0.5rem 0;
+    font-weight: 500;
 }
 
 .costeMana {

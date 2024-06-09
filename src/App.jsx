@@ -100,6 +100,4 @@ logo.className = "logo";
 logo.setAttribute("src","./src/components/img/logo.png");
 document.body.appendChild(banner);
 banner.appendChild(titulo);
-banner.appendChild(logo);
-titulo.textContent = "Magic The Gathering";
 export default App;
