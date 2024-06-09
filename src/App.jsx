@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import ReactDOM from 'react-dom';
 import './components/card.css';
 
 const Card = ({ name, manaCost, imageUrl, color }) => (
@@ -91,16 +90,16 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
 
 const banner = document.createElement("div");
 const titulo = document.createElement("h1");
 const logo = document.createElement("img");
-banner.className = "banner"
-logo.className = "logo"
-logo.setAttribute("src","./src/components/img/logo.png") 
+banner.className = "banner";
+logo.className = "logo";
+logo.setAttribute("src","./src/components/img/logo.png");
 document.body.appendChild(banner);
-banner.appendChild(titulo)
-banner.appendChild(logo)
+banner.appendChild(titulo);
+banner.appendChild(logo);
 titulo.textContent = "Magic The Gathering";
 export default App;
