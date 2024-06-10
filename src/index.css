@@ -1,6 +1,4 @@
 html,body{
-  background-color: #191F40
-}
-.container{
-  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1d1c25, #431e3f);
 }
