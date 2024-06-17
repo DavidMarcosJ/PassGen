@@ -12,9 +12,9 @@ export default defineConfig({
       injectRegister: 'auto',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'MTG APP',
-        short_name: 'MTGAPP',
-        description: 'App de filtrado de cartas de MTG',
+        name: 'Generador de contraseñas',
+        short_name: 'password gen',
+        description: 'Generador de contraseñas',
         theme_color: '#ffffff',
       },
     }),

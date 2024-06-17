@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-color: #222;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.App {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  .password-container {
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-container {
+    margin-bottom: 20px;
+  }
+  
+  .password-display {
+    margin-top: 20px;
+  }
+  
+  input[type='number'] {
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid rgb(95, 94, 96);
+  }
+  
+  input[type='text'] {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid rgb(95, 94, 96);
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(96, 1, 147);
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    border-radius: 2px;
+  }
+  
+  button:hover {
+    background-color: rgb(113, 61, 142);
+  }
+
+  
